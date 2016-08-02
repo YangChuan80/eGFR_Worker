@@ -1,0 +1,53 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: eGFR Worker - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/eGFR Worker.res" /d "_DEBUG" "D:\Chuan\Documents\My Source\eGFR Worker\eGFR Worker.rc"" 
+Creating temporary file "C:\Users\Chuan\AppData\Local\Temp\RSP6558.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/eGFR Worker.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Chuan\Documents\My Source\eGFR Worker\AboutThis.cpp"
+"D:\Chuan\Documents\My Source\eGFR Worker\eGFR Worker.cpp"
+"D:\Chuan\Documents\My Source\eGFR Worker\eGFR WorkerDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\Chuan\AppData\Local\Temp\RSP6558.tmp" 
+Creating temporary file "C:\Users\Chuan\AppData\Local\Temp\RSP6568.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/eGFR Worker.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Chuan\Documents\My Source\eGFR Worker\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Chuan\AppData\Local\Temp\RSP6568.tmp" 
+Creating temporary file "C:\Users\Chuan\AppData\Local\Temp\RSP6569.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/eGFR Worker.pdb" /debug /machine:I386 /out:"Debug/eGFR Worker.exe" /pdbtype:sept 
+".\Debug\AboutThis.obj"
+".\Debug\eGFR Worker.obj"
+".\Debug\eGFR WorkerDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\eGFR Worker.res"
+]
+Creating command line "link.exe @C:\Users\Chuan\AppData\Local\Temp\RSP6569.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AboutThis.cpp
+eGFR Worker.cpp
+eGFR WorkerDlg.cpp
+D:\Chuan\Documents\My Source\eGFR Worker\eGFR WorkerDlg.cpp(200) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\Chuan\Documents\My Source\eGFR Worker\eGFR WorkerDlg.cpp(202) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+eGFR Worker.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
